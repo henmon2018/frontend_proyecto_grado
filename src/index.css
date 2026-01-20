@@ -1,1 +1,8 @@
 @import "tailwindcss";
+:root {
+  --color-primary: #1E5A7A;
+  --color-primary-dark: #163d52;
+  --color-primary-darker: #0f2638;
+  --color-accent: #FDB913;
+  --color-accent-hover: #FCA311;
+}
