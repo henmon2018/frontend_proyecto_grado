@@ -112,7 +112,7 @@ const Home = () => {
                 Comenzar Ahora
               </motion.button>
               <motion.a
-                href="https://youtube.com/shorts/R9ZLIMplxY0?si=8mOqzSd1KaaiW7hq"
+                href="https://www.facebook.com/share/v/17ZsNEbeuD/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
