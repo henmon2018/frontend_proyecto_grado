@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion'
-import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin, GraduationCap } from 'lucide-react'
+import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin, GraduationCap, Youtube } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Facebook, href: '#', color: 'hover:text-blue-500' },
-    { icon: Instagram, href: '#', color: 'hover:text-pink-500' },
+    { icon: Facebook, href: 'https://www.facebook.com/monsroberto.mariadelpozo/', color: 'hover:text-blue-500' },
+    { icon: Instagram, href: 'https://www.instagram.com/uepmrmp/', color: 'hover:text-pink-500' },
+    { icon: Youtube, href: 'https://www.youtube.com/@uep.mons.robertomariadelpo3361', color: 'hover:text-red-500' },
     { icon: Twitter, href: '#', color: 'hover:text-blue-400' },
     { icon: Linkedin, href: '#', color: 'hover:text-blue-600' }
   ]
@@ -42,6 +43,8 @@ const Footer = () => {
                 <motion.a
                   key={index}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, rotate: 5 }}
                   whileTap={{ scale: 0.9 }}
                   className={`w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center transition-colors ${social.color}`}
