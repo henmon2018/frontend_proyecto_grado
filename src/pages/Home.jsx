@@ -111,13 +111,16 @@ const Home = () => {
               >
                 Comenzar Ahora
               </motion.button>
-              <motion.button
+              <motion.a
+                href="https://youtube.com/shorts/R9ZLIMplxY0?si=8mOqzSd1KaaiW7hq"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/30 transition border-2 border-white/50"
+                className="bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/30 transition border-2 border-white/50 inline-block"
               >
                 Ver Video
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
         </div>
