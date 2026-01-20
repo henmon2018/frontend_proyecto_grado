@@ -64,7 +64,7 @@ const Home = () => {
     <div className="pt-16">
       {/* Hero Section con Parallax */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0" style={{background: 'linear-gradient(to bottom right, #1E5A7A, #163d52, #0f2638)'}}>
+        <div className="absolute inset-0" style={{background: 'linear-gradient(to bottom right, #1E5A7A, #163d52, #0f2638) !important'}}>
           <div className="absolute inset-0 bg-black/10"></div>
         </div>
         
