@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin, GraduationCap, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Mail, Phone, MapPin, GraduationCap, Youtube } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -8,9 +8,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Facebook, href: 'https://www.facebook.com/monsroberto.mariadelpozo/', color: 'hover:text-blue-500' },
     { icon: Instagram, href: 'https://www.instagram.com/uepmrmp/', color: 'hover:text-pink-500' },
-    { icon: Youtube, href: 'https://www.youtube.com/@uep.mons.robertomariadelpo3361', color: 'hover:text-red-500' },
-    { icon: Twitter, href: '#', color: 'hover:text-blue-400' },
-    { icon: Linkedin, href: '#', color: 'hover:text-blue-600' }
+    { icon: Youtube, href: 'https://www.youtube.com/@uep.mons.robertomariadelpo3361', color: 'hover:text-red-500' }
   ]
 
   const quickLinks = [
