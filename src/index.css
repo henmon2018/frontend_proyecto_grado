@@ -6,3 +6,7 @@
   --color-accent: #FDB913;
   --color-accent-hover: #FCA311;
 }
+
+.hero-gradient {
+  background: linear-gradient(to bottom right, #1E5A7A, #163d52, #0f2638) !important;
+}
