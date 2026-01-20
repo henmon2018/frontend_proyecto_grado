@@ -19,7 +19,7 @@ const Header = () => {
                 alt="Logo Colegio Premium" 
                 className="h-14 w-auto"
               />
-              <span className="text-xl font-bold hidden sm:inline" style={{color: '#1E5A7A'}}>
+              <span className="text-xl font-bold hidden sm:inline" style={{color: '#1E5A7A', fontWeight: 'bold'}}>
                 UEPMRMP
               </span>
             </Link>
