@@ -85,7 +85,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-yellow-400 mt-1" />
-                <span>Av. Principal #123, Ciudad, País</span>
+                <span>GUASMO SUR Guayaquil, Ecuador</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-5 h-5 text-yellow-400" />
