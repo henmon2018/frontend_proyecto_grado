@@ -20,7 +20,7 @@ const Header = () => {
                 className="h-14 w-auto"
               />
               <span className="text-xl font-bold hidden sm:inline" style={{color: '#1E5A7A'}}>
-                Premium School
+                UEPMRMP
               </span>
             </Link>
           </div>
