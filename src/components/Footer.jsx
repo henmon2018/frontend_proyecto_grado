@@ -20,7 +20,7 @@ const Footer = () => {
   ]
 
   return (
-    <footer className="bg-linear-to-br from-indigo-900 via-indigo-800 to-indigo-950 text-white">
+    <footer className="text-white" style={{background: 'linear-gradient(to bottom right, #1E5A7A, #163d52, #0f2638)'}}>
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -31,7 +31,7 @@ const Footer = () => {
             transition={{ delay: 0.1 }}
           >
             <div className="flex items-center space-x-2 mb-4">
-              <GraduationCap className="w-8 h-8 text-amber-400 drop-shadow-lg" />
+              <GraduationCap className="w-8 h-8 drop-shadow-lg" style={{color: '#FDB913'}} />
               <span className="text-2xl font-bold">Colegio Premium</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">

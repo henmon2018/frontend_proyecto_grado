@@ -46,7 +46,8 @@ const Dashboard = () => {
             </div>
             <button
               onClick={logout}
-              className="px-6 py-3 bg-indigo-900 text-white rounded-lg hover:bg-indigo-950"
+              className="px-6 py-3 text-white rounded-lg hover:opacity-90"
+              style={{backgroundColor: '#FDB913', color: '#1E5A7A'}}
             >
               Cerrar Sesión
             </button>
@@ -63,7 +64,8 @@ const Dashboard = () => {
           >
             <Link
               to="/manage-courses"
-              className="bg-linear-to-r from-indigo-900 to-indigo-800 text-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition"
+              className="text-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition"
+              style={{background: 'linear-gradient(to right, #1E5A7A, #163d52)'}}
             >
               <div className="text-4xl mb-4">📚</div>
               <h3 className="text-2xl font-bold mb-2">Gestionar Cursos</h3>
@@ -100,7 +102,7 @@ const Dashboard = () => {
           ) : enrollments.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-500 text-lg">Aún no estás inscrito en ningún curso</p>
-              <Link to="/courses" className="mt-4 inline-block text-indigo-900 hover:text-indigo-950 font-semibold">
+              <Link to="/courses" className="mt-4 inline-block font-semibold hover:opacity-70" style={{color: '#1E5A7A'}}>
                 Ver cursos disponibles →
               </Link>
             </div>

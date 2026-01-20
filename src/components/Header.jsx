@@ -8,7 +8,7 @@ const Header = () => {
   const { user, logout, isAuthenticated } = useAuth()
 
   return (
-    <nav className="bg-white shadow-2xl sticky top-0 z-50 border-b-4 border-amber-500">
+    <nav className="bg-white shadow-2xl sticky top-0 z-50 border-b-4" style={{borderColor: '#FDB913'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center gap-3">
@@ -18,7 +18,7 @@ const Header = () => {
                 alt="Logo Colegio Premium" 
                 className="h-14 w-auto"
               />
-              <span className="text-xl font-bold text-indigo-900 hidden sm:inline">
+              <span className="text-xl font-bold hidden sm:inline" style={{color: '#1E5A7A'}}>
                 Premium School
               </span>
             </Link>

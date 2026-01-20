@@ -64,7 +64,7 @@ const Home = () => {
     <div className="pt-16">
       {/* Hero Section con Parallax */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-linear-to-br from-indigo-900 via-indigo-800 to-indigo-950">
+        <div className="absolute inset-0" style={{background: 'linear-gradient(to bottom right, #1E5A7A, #163d52, #0f2638)'}}>
           <div className="absolute inset-0 bg-black/10"></div>
         </div>
         
@@ -76,7 +76,8 @@ const Home = () => {
               rotate: [0, 180, 360],
             }}
             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            className="absolute -top-20 -left-20 w-96 h-96 bg-amber-400/30 rounded-full blur-3xl"
+            className="absolute -top-20 -left-20 w-96 h-96 rounded-full blur-3xl"
+            style={{backgroundColor: 'rgba(253, 185, 19, 0.3)'}}
           />
           <motion.div
             animate={{
@@ -84,7 +85,8 @@ const Home = () => {
               rotate: [360, 180, 0],
             }}
             transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-            className="absolute -bottom-20 -right-20 w-96 h-96 bg-amber-400/20 rounded-full blur-3xl"
+            className="absolute -bottom-20 -right-20 w-96 h-96 rounded-full blur-3xl"
+            style={{backgroundColor: 'rgba(253, 185, 19, 0.2)'}}
           />
         </div>
 
@@ -96,7 +98,7 @@ const Home = () => {
           >
             <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Educación para el
-              <span className="block bg-linear-to-r from-amber-400 to-amber-200 bg-clip-text text-transparent">
+              <span className="block bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(to right, #FDB913, #FFC933)'}}>
                 Futuro Digital
               </span>
             </h1>
@@ -107,7 +109,10 @@ const Home = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-amber-500 text-indigo-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-400 transition shadow-2xl"
+                className="text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-2xl"
+                style={{backgroundColor: '#FDB913'}}
+                onMouseEnter={(e) => e.target.style.backgroundColor = '#FCA311'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = '#FDB913'}
               >
                 Comenzar Ahora
               </motion.button>

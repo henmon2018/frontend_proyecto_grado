@@ -64,7 +64,7 @@ const Register = () => {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             ¿Ya tienes cuenta?{' '}
-            <Link to="/login" className="font-medium text-indigo-900 hover:text-indigo-700">
+            <Link to="/login" className="font-medium hover:text-blue-700" style={{color: '#1E5A7A'}}>
               Inicia sesión aquí
             </Link>
           </p>
@@ -156,7 +156,8 @@ const Register = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 px-4 border border-transparent rounded-lg text-white bg-indigo-900 hover:bg-indigo-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-900 disabled:opacity-50"
+            className="w-full py-3 px-4 border border-transparent rounded-lg text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50"
+            style={{backgroundColor: '#FDB913', color: '#1E5A7A'}}
           >
             {loading ? 'Registrando...' : 'Crear Cuenta'}
           </button>

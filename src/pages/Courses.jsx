@@ -58,7 +58,7 @@ const Courses = () => {
   return (
     <div className="min-h-screen bg-linear-to-b from-purple-50 to-white">
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-indigo-900 to-indigo-800 text-white py-20">
+      <section className="text-white py-20" style={{background: 'linear-gradient(to right, #1E5A7A, #163d52)'}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -95,9 +95,10 @@ const Courses = () => {
               onClick={() => setSelectedCategory(category.id)}
               className={`px-6 py-3 rounded-full font-semibold transition ${
                 selectedCategory === category.id
-                  ? 'bg-indigo-900 text-white'
-                  : 'bg-white text-gray-700 hover:bg-indigo-100'
+                  ? 'text-white'
+                  : 'bg-white text-gray-700 hover:opacity-80'
               }`}
+              style={selectedCategory === category.id ? {backgroundColor: '#FDB913', color: '#1E5A7A'} : {}}
             >
               {category.icon} {category.name}
             </button>
@@ -107,7 +108,7 @@ const Courses = () => {
         {/* Courses Grid */}
         {loading ? (
           <div className="text-center py-20">
-            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-indigo-900 mx-auto"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-b-4 mx-auto" style={{borderColor: '#1E5A7A'}}></div>
             <p className="mt-4 text-gray-600">Cargando cursos...</p>
           </div>
         ) : courses.length === 0 ? (
@@ -131,10 +132,10 @@ const Courses = () => {
                 />
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-4">
-                    <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm font-semibold">
+                    <span className="px-3 py-1 rounded-full text-sm font-semibold text-white" style={{backgroundColor: '#FDB913', color: '#1E5A7A'}}>
                       {course.level}
                     </span>
-                    <span className="text-2xl font-bold text-indigo-900">
+                    <span className="text-2xl font-bold" style={{color: '#1E5A7A'}}>
                       ${course.price}
                     </span>
                   </div>
@@ -154,7 +155,8 @@ const Courses = () => {
                   </div>
                   <button
                     onClick={() => handleEnroll(course._id)}
-                    className="w-full bg-indigo-900 text-white py-3 rounded-full font-semibold hover:bg-indigo-950 transition"
+                    className="w-full py-3 rounded-full font-semibold hover:opacity-90 transition text-white"
+                    style={{backgroundColor: '#FDB913', color: '#1E5A7A'}}
                   >
                     Inscribirse Ahora
                   </button>

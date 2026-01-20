@@ -52,7 +52,7 @@ const About = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative py-32 bg-linear-to-r from-indigo-900 to-indigo-800 overflow-hidden">
+      <section className="relative py-32 overflow-hidden" style={{background: 'linear-gradient(to right, #1E5A7A, #163d52)'}}>
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div

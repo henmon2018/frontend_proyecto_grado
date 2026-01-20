@@ -156,7 +156,8 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-indigo-900 text-white py-3 rounded-lg font-semibold hover:bg-indigo-950 transition disabled:opacity-50"
+                  className="w-full py-3 rounded-lg font-semibold hover:opacity-90 transition disabled:opacity-50"
+                  style={{backgroundColor: '#FDB913', color: '#1E5A7A'}}
                 >
                   {loading ? 'Enviando...' : 'Enviar Mensaje'}
                 </button>
