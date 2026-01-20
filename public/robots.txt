@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /dashboard
+
+Sitemap: https://school-premium.netlify.app/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
