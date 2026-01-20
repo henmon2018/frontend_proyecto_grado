@@ -52,7 +52,7 @@ const About = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative py-32 bg-linear-to-r from-blue-600 to-purple-600 overflow-hidden">
+      <section className="relative py-32 bg-linear-to-r from-blue-600 to-blue-700 overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
@@ -77,7 +77,7 @@ const About = () => {
               animate={inView1 ? { opacity: 1, x: 0 } : {}}
               className="bg-linear-to-br from-blue-50 to-purple-50 p-12 rounded-3xl"
             >
-              <div className="w-16 h-16 bg-linear-to-r from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-linear-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-4xl font-bold mb-6 text-gray-800">Misión</h2>
@@ -116,7 +116,7 @@ const About = () => {
             animate={inView2 ? { opacity: 1, y: 0 } : {}}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
               Nuestros Valores
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -153,7 +153,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
               Nuestra Trayectoria
             </h2>
           </motion.div>
@@ -193,7 +193,7 @@ const About = () => {
             animate={inView3 ? { opacity: 1, y: 0 } : {}}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
               Nuestro Equipo
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">

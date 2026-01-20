@@ -58,7 +58,7 @@ const Courses = () => {
   return (
     <div className="min-h-screen bg-linear-to-b from-purple-50 to-white">
       {/* Hero Section */}
-      <section className="bg-linear-to-r from-purple-600 to-pink-600 text-white py-20">
+      <section className="bg-linear-to-r from-blue-600 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -95,8 +95,8 @@ const Courses = () => {
               onClick={() => setSelectedCategory(category.id)}
               className={`px-6 py-3 rounded-full font-semibold transition ${
                 selectedCategory === category.id
-                  ? 'bg-purple-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-purple-100'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-white text-gray-700 hover:bg-blue-100'
               }`}
             >
               {category.icon} {category.name}
@@ -107,7 +107,7 @@ const Courses = () => {
         {/* Courses Grid */}
         {loading ? (
           <div className="text-center py-20">
-            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-purple-600 mx-auto"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto"></div>
             <p className="mt-4 text-gray-600">Cargando cursos...</p>
           </div>
         ) : courses.length === 0 ? (
@@ -131,10 +131,10 @@ const Courses = () => {
                 />
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-4">
-                    <span className="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold">
                       {course.level}
                     </span>
-                    <span className="text-2xl font-bold text-purple-600">
+                    <span className="text-2xl font-bold text-blue-600">
                       ${course.price}
                     </span>
                   </div>
@@ -154,7 +154,7 @@ const Courses = () => {
                   </div>
                   <button
                     onClick={() => handleEnroll(course._id)}
-                    className="w-full bg-purple-600 text-white py-3 rounded-full font-semibold hover:bg-purple-700 transition"
+                    className="w-full bg-blue-600 text-white py-3 rounded-full font-semibold hover:bg-blue-700 transition"
                   >
                     Inscribirse Ahora
                   </button>

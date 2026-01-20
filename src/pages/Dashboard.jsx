@@ -46,7 +46,7 @@ const Dashboard = () => {
             </div>
             <button
               onClick={logout}
-              className="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700"
+              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
             >
               Cerrar Sesión
             </button>
@@ -63,7 +63,7 @@ const Dashboard = () => {
           >
             <Link
               to="/manage-courses"
-              className="bg-linear-to-r from-purple-600 to-pink-600 text-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition"
+              className="bg-linear-to-r from-blue-600 to-blue-700 text-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition"
             >
               <div className="text-4xl mb-4">📚</div>
               <h3 className="text-2xl font-bold mb-2">Gestionar Cursos</h3>
@@ -100,7 +100,7 @@ const Dashboard = () => {
           ) : enrollments.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-500 text-lg">Aún no estás inscrito en ningún curso</p>
-              <Link to="/courses" className="mt-4 inline-block text-purple-600 hover:text-purple-700 font-semibold">
+              <Link to="/courses" className="mt-4 inline-block text-blue-600 hover:text-blue-700 font-semibold">
                 Ver cursos disponibles →
               </Link>
             </div>

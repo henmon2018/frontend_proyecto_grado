@@ -64,8 +64,8 @@ const Home = () => {
     <div className="pt-16">
       {/* Hero Section con Parallax */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-purple-600 to-pink-600">
-          <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-blue-700 via-blue-600 to-blue-800">
+          <div className="absolute inset-0 bg-black/10"></div>
         </div>
         
         {/* Círculos animados de fondo */}
@@ -76,7 +76,7 @@ const Home = () => {
               rotate: [0, 180, 360],
             }}
             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            className="absolute -top-20 -left-20 w-96 h-96 bg-yellow-400/20 rounded-full blur-3xl"
+            className="absolute -top-20 -left-20 w-96 h-96 bg-yellow-300/30 rounded-full blur-3xl"
           />
           <motion.div
             animate={{
@@ -84,7 +84,7 @@ const Home = () => {
               rotate: [360, 180, 0],
             }}
             transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-            className="absolute -bottom-20 -right-20 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl"
+            className="absolute -bottom-20 -right-20 w-96 h-96 bg-yellow-300/20 rounded-full blur-3xl"
           />
         </div>
 
@@ -94,9 +94,9 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Educación para el
-              <span className="block bg-linear-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+              <span className="block bg-linear-to-r from-yellow-300 to-yellow-100 bg-clip-text text-transparent">
                 Futuro Digital
               </span>
             </h1>

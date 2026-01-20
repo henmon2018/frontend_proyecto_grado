@@ -52,7 +52,7 @@ const Register = () => {
   }
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-50 to-pink-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-yellow-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -64,7 +64,7 @@ const Register = () => {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             ¿Ya tienes cuenta?{' '}
-            <Link to="/login" className="font-medium text-purple-600 hover:text-purple-500">
+            <Link to="/login" className="font-medium text-blue-600 hover:text-blue-500">
               Inicia sesión aquí
             </Link>
           </p>
@@ -156,7 +156,7 @@ const Register = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-3 px-4 border border-transparent rounded-lg text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 disabled:opacity-50"
+            className="w-full py-3 px-4 border border-transparent rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
           >
             {loading ? 'Registrando...' : 'Crear Cuenta'}
           </button>
