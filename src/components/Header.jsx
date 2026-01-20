@@ -11,13 +11,16 @@ const Header = () => {
     <nav className="bg-white shadow-2xl sticky top-0 z-50 border-b-4 border-amber-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex items-center">
-            <Link to="/" className="flex items-center">
+          <div className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3">
               <img 
                 src="https://scontent.fgye1-1.fna.fbcdn.net/v/t39.30808-6/343421420_198382112973960_4132014736359434467_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lhzJFRyncdEQ7kNvwFwQRJU&_nc_oc=AdlHkPOfETozOCpq_6cExq0QC-1FWHvqmkoLXVhj894IGVb7MKcFG7R_CTZHNcKc6qjTraEEtIMQEZ7ITT-krYy4&_nc_zt=23&_nc_ht=scontent.fgye1-1.fna&_nc_gid=AoTieVxCgXiGnhw-QHSbgQ&oh=00_Afok2lvY7BdwNOKPx2gAjCPB7XP0bPXmbEziY0EHSSJKdg&oe=6974D30D"
                 alt="Logo Colegio Premium" 
                 className="h-14 w-auto"
               />
+              <span className="text-xl font-bold text-indigo-900 hidden sm:inline">
+                Premium School
+              </span>
             </Link>
           </div>
 
