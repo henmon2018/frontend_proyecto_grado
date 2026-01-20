@@ -181,6 +181,7 @@ const Header = () => {
           </div>
         </motion.div>
       )}
+    </nav>
       
       {/* Logo Banner */}
       <div className="flex justify-center items-center py-3" style={{backgroundColor: '#FDB913'}}>
