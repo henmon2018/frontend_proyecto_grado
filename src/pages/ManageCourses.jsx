@@ -134,7 +134,7 @@ const ManageCourses = () => {
           </div>
           <button
             onClick={openCreateModal}
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition flex items-center gap-2"
+            className="bg-indigo-900 text-white px-6 py-3 rounded-lg hover:bg-indigo-950 transition flex items-center gap-2"
           >
             <span className="text-2xl">+</span>
             Crear Curso
@@ -205,7 +205,7 @@ const ManageCourses = () => {
                   <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                     <button
                       onClick={() => handleEdit(course)}
-                      className="text-blue-600 hover:text-blue-900 mr-4"
+                      className="text-indigo-900 hover:text-indigo-950 mr-4"
                     >
                       Editar
                     </button>
@@ -368,7 +368,7 @@ const ManageCourses = () => {
               <div className="flex gap-4 pt-4">
                 <button
                   type="submit"
-                  className="flex-1 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition font-semibold"
+                  className="flex-1 bg-indigo-900 text-white py-3 rounded-lg hover:bg-indigo-950 transition font-semibold"
                 >
                   {editingCourse ? 'Actualizar Curso' : 'Crear Curso'}
                 </button>

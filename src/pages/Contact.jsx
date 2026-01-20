@@ -45,7 +45,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-12">
+    <div className="min-h-screen bg-linear-to-b from-indigo-50 to-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -156,7 +156,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition disabled:opacity-50"
+                  className="w-full bg-indigo-900 text-white py-3 rounded-lg font-semibold hover:bg-indigo-950 transition disabled:opacity-50"
                 >
                   {loading ? 'Enviando...' : 'Enviar Mensaje'}
                 </button>

@@ -8,12 +8,12 @@ const Header = () => {
   const { user, logout, isAuthenticated } = useAuth()
 
   return (
-    <nav className="bg-white shadow-2xl sticky top-0 z-50 border-b-4 border-yellow-400">
+    <nav className="bg-white shadow-2xl sticky top-0 z-50 border-b-4 border-amber-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold bg-linear-to-r from-blue-600 to-yellow-500 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-linear-to-r from-indigo-900 to-amber-500 bg-clip-text text-transparent">
                 🎓 Premium School
               </span>
             </Link>

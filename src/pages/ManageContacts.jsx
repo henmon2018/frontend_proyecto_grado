@@ -80,7 +80,7 @@ const ManageContacts = () => {
           <button
             onClick={() => setFilter('all')}
             className={`px-4 py-2 rounded-lg font-semibold ${
-              filter === 'all' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700'
+              filter === 'all' ? 'bg-indigo-900 text-white' : 'bg-white text-gray-700'
             }`}
           >
             Todos ({contacts.length})
@@ -143,7 +143,7 @@ const ManageContacts = () => {
                     <span className={`px-3 py-1 rounded-full text-sm font-semibold ${getStatusColor(contact.status)}`}>
                       {contact.status}
                     </span>
-                    <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
+                    <span className="px-3 py-1 bg-indigo-100 text-indigo-900 rounded-full text-sm font-semibold">
                       {getSubjectLabel(contact.subject)}
                     </span>
                   </div>

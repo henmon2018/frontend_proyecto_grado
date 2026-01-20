@@ -20,7 +20,7 @@ const Footer = () => {
   ]
 
   return (
-    <footer className="bg-linear-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
+    <footer className="bg-linear-to-br from-indigo-900 via-indigo-800 to-indigo-950 text-white">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -31,7 +31,7 @@ const Footer = () => {
             transition={{ delay: 0.1 }}
           >
             <div className="flex items-center space-x-2 mb-4">
-              <GraduationCap className="w-8 h-8 text-yellow-300 drop-shadow-lg" />
+              <GraduationCap className="w-8 h-8 text-amber-400 drop-shadow-lg" />
               <span className="text-2xl font-bold">Colegio Premium</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
@@ -58,15 +58,15 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            <h3 className="text-xl font-bold mb-6 text-yellow-300">Enlaces Rápidos</h3>
+            <h3 className="text-xl font-bold mb-6 text-amber-400">Enlaces Rápidos</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <Link
                     to={link.path}
-                    className="text-gray-300 hover:text-yellow-300 transition-colors flex items-center group"
+                    className="text-gray-300 hover:text-amber-400 transition-colors flex items-center group"
                   >
-                    <span className="w-0 group-hover:w-2 h-0.5 bg-yellow-300 transition-all mr-0 group-hover:mr-2"></span>
+                    <span className="w-0 group-hover:w-2 h-0.5 bg-amber-400 transition-all mr-0 group-hover:mr-2"></span>
                     {link.name}
                   </Link>
                 </li>
