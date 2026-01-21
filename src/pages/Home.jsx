@@ -65,8 +65,8 @@ const Home = () => {
   return (
     <div className="pt-16">
       {/* Hero Section con Parallax */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{background: 'linear-gradient(135deg, #FDB913 80%, #1E5A7A 100%)'}}>
-        <div className="absolute inset-0" style={{background: 'linear-gradient(135deg, #FDB913 80%, #1E5A7A 100%)'}}>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{background: 'linear-gradient(120deg, #1E5A7A 60%, #FDB913 40%)'}}>
+        <div className="absolute inset-0" style={{background: 'linear-gradient(120deg, #1E5A7A 60%, #FDB913 40%)'}}>
           <div className="absolute inset-0 bg-white/10"></div>
         </div>
         
@@ -221,22 +221,22 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section ref={ref2} className="py-20" style={{background: 'linear-gradient(90deg, #FDB913 80%, #1E5A7A 100%)', color: '#1E5A7A', position: 'relative', overflow: 'hidden'}}>
+      <section ref={ref2} className="py-20" style={{background: 'linear-gradient(90deg, #1E5A7A 60%, #FDB913 40%)', color: '#1E5A7A', position: 'relative', overflow: 'hidden'}}>
         <div className="absolute inset-0" style={{background: 'rgba(255,255,255,0.08)'}}></div>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={inView2 ? { opacity: 1, scale: 1 } : {}}
           className="container mx-auto px-4 text-center relative z-10"
         >
-          <h2 className="text-5xl font-bold mb-6" style={{color: '#1E5A7A'}}>¿Listo para comenzar?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto" style={{color: '#1E5A7A'}}>
+          <h2 className="text-5xl font-bold mb-6" style={{color: '#FDB913'}}>¿Listo para comenzar?</h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto" style={{color: '#FDB913'}}>
             Únete a nuestra comunidad educativa y transforma tu futuro hoy mismo
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-12 py-4 rounded-full font-bold text-lg transition shadow-2xl"
-            style={{backgroundColor: '#1E5A7A', color: '#FDB913'}} 
+            style={{backgroundColor: '#FDB913', color: '#1E5A7A'}} 
             onClick={() => navigate('/courses')}
           >
             Inscríbete Ahora
