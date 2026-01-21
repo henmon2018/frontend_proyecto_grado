@@ -65,9 +65,9 @@ const Home = () => {
   return (
     <div className="pt-16">
       {/* Hero Section con Parallax */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 hero-gradient">
-          <div className="absolute inset-0 bg-black/10"></div>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{background: 'linear-gradient(135deg, #1E5A7A 60%, #FDB913 100%)'}}>
+        <div className="absolute inset-0" style={{background: 'linear-gradient(135deg, #1E5A7A 60%, #FDB913 100%)'}}>
+          <div className="absolute inset-0 bg-white/10"></div>
         </div>
         
         {/* Círculos animados de fondo */}
@@ -221,8 +221,8 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section ref={ref2} className="py-20 bg-linear-to-r from-blue-600 to-purple-600 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
+      <section ref={ref2} className="py-20" style={{background: 'linear-gradient(90deg, #1E5A7A 70%, #FDB913 100%)', color: 'white', position: 'relative', overflow: 'hidden'}}>
+        <div className="absolute inset-0" style={{background: 'rgba(255,255,255,0.08)'}}></div>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={inView2 ? { opacity: 1, scale: 1 } : {}}
@@ -235,7 +235,8 @@ const Home = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-yellow-400 text-gray-800 px-12 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition shadow-2xl"
+            className="px-12 py-4 rounded-full font-bold text-lg transition shadow-2xl"
+            style={{backgroundColor: '#FDB913', color: '#1E5A7A'}} 
             onClick={() => navigate('/courses')}
           >
             Inscríbete Ahora
