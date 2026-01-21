@@ -174,19 +174,19 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">📍 Dirección</h3>
               <p className="text-gray-600">
-                Calle 2, Barrio El Carmen<br />
-                Santa Cruz, Bolivia
+                GUASMO SUR<br />
+                Guayaquil, Ecuador
               </p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">📞 Teléfono</h3>
-              <p className="text-gray-600">+591 77654321</p>
+              <p className="text-gray-600">+593 99 443 0011</p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">✉️ Email</h3>
-              <p className="text-gray-600">contacto@colegiomrmp.edu.bo</p>
+              <p className="text-gray-600">secretaria@uepmrmp.edu.ec</p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
