@@ -62,7 +62,7 @@ const About = () => {
           >
             <h1 className="text-6xl font-bold mb-6">Nuestra Historia</h1>
             <p className="text-2xl leading-relaxed">
-              Más de 30 años transformando vidas a través de la educación de calidad
+              Más de 43 años transformando vidas a través de la educación de calidad
             </p>
           </motion.div>
         </div>
