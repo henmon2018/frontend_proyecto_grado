@@ -80,11 +80,9 @@ const About = () => {
             <div className="w-16 h-16 bg-linear-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-800">Misión</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-800">MISION</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Formar estudiantes íntegros, competentes y comprometidos con la sociedad, 
-                brindando educación de excelencia que combine conocimiento académico, 
-                valores humanos y habilidades para el siglo XXI.
+                Somos una Institución que brinda una educación dirigida a la niñez y a la adolescencia con valores éticos, cristianos y científicos para formar ciudadanos con espíritu misionero, pensamiento crítico reflexivo e investigativo, guiados e inspirados en la pedagogía de Jesús; apoyados en una preparación académica integral, de calidad y calidez, que está en constante actualización formando líderes que contribuyan al conocimiento, al amor a la naturaleza y que transforme su realidad socio cultural
               </p>
             </motion.div>
 
@@ -97,11 +95,9 @@ const About = () => {
               <div className="w-16 h-16 bg-linear-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6">
                 <Eye className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-800">Visión</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-800">VISIÓN</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Ser reconocidos como la institución educativa líder en innovación y excelencia, 
-                formando generaciones de líderes que transformen positivamente nuestra sociedad 
-                y estén preparados para los desafíos del futuro.
+                La Institución Particular "Monseñor Roberto María Del Pozo" se proyecta a ser una institución facilitadora de los aprendizajes significativos, formando estudiantes para una sociedad justa, solidaria, inclusiva, defensora de los derechos humanos y la naturaleza, fundamentada en nuestro modelo pedagógico crítico constructivista con tendencia holística y ecológica, basados en los postulados de la religión católica
               </p>
             </motion.div>
           </div>
