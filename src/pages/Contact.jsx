@@ -174,19 +174,19 @@ const Contact = () => {
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">📍 Dirección</h3>
               <p className="text-gray-600">
-                Av. Principal 123<br />
-                Ciudad, País 12345
+                Calle 2, Barrio El Carmen<br />
+                Santa Cruz, Bolivia
               </p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">📞 Teléfono</h3>
-              <p className="text-gray-600">+1 (234) 567-8900</p>
+              <p className="text-gray-600">+591 77654321</p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold mb-4">✉️ Email</h3>
-              <p className="text-gray-600">info@premiumschool.com</p>
+              <p className="text-gray-600">contacto@colegiomrmp.edu.bo</p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl p-8">
