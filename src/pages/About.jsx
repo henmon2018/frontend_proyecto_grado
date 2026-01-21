@@ -80,7 +80,7 @@ const About = () => {
             <div className="w-16 h-16 bg-linear-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-800">MISION</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-800">MISIÓN</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Somos una Institución que brinda una educación dirigida a la niñez y a la adolescencia con valores éticos, cristianos y científicos para formar ciudadanos con espíritu misionero, pensamiento crítico reflexivo e investigativo, guiados e inspirados en la pedagogía de Jesús; apoyados en una preparación académica integral, de calidad y calidez, que está en constante actualización formando líderes que contribuyan al conocimiento, al amor a la naturaleza y que transforme su realidad socio cultural
               </p>
