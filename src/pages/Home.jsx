@@ -2,12 +2,14 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { BookOpen, Users, Award, Calendar, TrendingUp, Shield } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const [ref1, inView1] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [ref3, inView3] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [stats, setStats] = useState({ students: 0, teachers: 0, courses: 0 })
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Simular carga de estadísticas del backend
@@ -113,6 +115,7 @@ const Home = () => {
                 style={{backgroundColor: '#FDB913'}}
                 onMouseEnter={(e) => e.target.style.backgroundColor = '#FCA311'}
                 onMouseLeave={(e) => e.target.style.backgroundColor = '#FDB913'}
+                onClick={() => navigate('/courses')}
               >
                 Comenzar Ahora
               </motion.button>
@@ -233,6 +236,7 @@ const Home = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-yellow-400 text-gray-800 px-12 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition shadow-2xl"
+            onClick={() => navigate('/courses')}
           >
             Inscríbete Ahora
           </motion.button>
